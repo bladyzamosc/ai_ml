@@ -1,0 +1,20 @@
+🧠 Przykłady predykcji:
+🔮 2.1 Ile części dany dealer zamówi jutro?
+Problem: regresja ilościowa
+
+Model: regresja liniowa, XGBoost, LSTM
+
+🧩 2.2 Czy dealer zamówi daną część w ciągu X dni?
+Problem: klasyfikacja binarna (TAK/NIE)
+
+Cechy: dealer, BU, typ części, dzień tygodnia, liczba poprzednich zamówień
+
+Model: regresja logistyczna, Random Forest, sieć neuronowa
+
+📆 2.3 Kiedy zostanie ponowione zamówienie na część?
+Problem: predykcja czasu (time-to-event) — modelowanie szeregów czasowych
+
+🔄 2.4 Klasyfikacja części na “często zamawiane” vs “rzadkie”
+Problem: klasyfikacja z etykietami
+
+Cechy: częstotliwość, dealer, sezonowość
